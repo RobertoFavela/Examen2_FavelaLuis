@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="GunMetal">#2D3142</color>
+    <color name="Payne_Grey">#4F5D75</color>
+    <color name="Indian_Red">#EF5D60</color>
+    <color name="Coral">#EF8354</color>
+</resources>

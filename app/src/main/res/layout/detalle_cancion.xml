@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Canción"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artista"
+        android:textSize="16sp"
+        android:layout_below="@id/tvNombre"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Álbum"
+        android:textSize="16sp"
+        android:layout_below="@id/tvArtista"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duración"
+        android:textSize="16sp"
+        android:layout_below="@id/tvAlbum"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <!-- esta buenisima esta barrita -->
+    <SeekBar
+        android:id="@+id/seekBarProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDuracion"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/seekBarProgress"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPlay"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>
